@@ -38,6 +38,9 @@
       "url": "api-reference"
     }
   ],
+  "codeBlock": {
+    "mode": "auto"
+  },
   "anchors": [
     {
       "name": "Documentation",
