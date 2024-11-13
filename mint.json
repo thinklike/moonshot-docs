@@ -38,12 +38,15 @@
       "url": "api-reference"
     }
   ],
+  "primaryTab": {
+    "name": "How to use"
+  },
   "codeBlock": {
     "mode": "auto"
   },
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Guides",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs",
       "color": {
@@ -52,8 +55,8 @@
       }
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Changelog",
+      "icon": "list-timeline",
       "url": "https://mintlify.com/community",
       "color": {
         "from": "#6F7FE2",
@@ -61,8 +64,8 @@
       }
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
+      "name": "Support",
+      "icon": "life-ring",
       "url": "https://mintlify.com/blog",
       "color": {
         "from": "#6F7FE2",
@@ -72,7 +75,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting started",
       "pages": [
         "introduction",
         "quickstart",
@@ -80,7 +83,7 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Examples",
       "pages": [
         "essentials/markdown",
         "essentials/code",
@@ -104,10 +107,5 @@
         "api-reference/endpoint/delete"
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+  ]
 }
