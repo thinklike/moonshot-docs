@@ -7,7 +7,7 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#6F7FE2",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -22,12 +22,12 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Get plugin",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "AI by Design",
       "url": "api-reference"
     }
   ],
