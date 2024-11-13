@@ -7,9 +7,9 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#6F7FE2",
+    "primary": "#4E60D2",
     "light": "#A3ADEC",
-    "dark": "#6F7FE2",
+    "dark": "#4E60D2",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -45,17 +45,29 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://mintlify.com/docs",
+      "color": {
+        "from": "#6F7FE2",
+        "to": "#A3ADEC"
+      }
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://mintlify.com/community",
+      "color": {
+        "from": "#6F7FE2",
+        "to": "#A3ADEC"
+      }
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://mintlify.com/blog",
+      "color": {
+        "from": "#6F7FE2",
+        "to": "#A3ADEC"
+      }
     }
   ],
   "navigation": [
