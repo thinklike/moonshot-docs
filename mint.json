@@ -33,8 +33,8 @@
     "url": "https://dashboard.mintlify.com"
   },
   "primaryTab": {
-    "name": "Plugin"
-},
+    "name": "Plugin docs"
+  },
   "tabs": [
     {
       "name": "AI by design",
