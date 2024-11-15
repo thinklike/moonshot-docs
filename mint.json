@@ -38,7 +38,7 @@
   "tabs": [
     {
       "name": "AI by design",
-      "url": "api-reference"
+      "url": "ai-by-design"
     }
   ],
   "codeBlock": {
@@ -114,6 +114,12 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Credo",
+      "pages": [
+        "ai-by-design/credo"
       ]
     }
   ]
