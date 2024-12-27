@@ -25,7 +25,7 @@
   "topbarLinks": [
     {
       "name": "Contact us",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:help@moonshot.app"
     }
   ],
   "topbarCtaButton": {
@@ -33,11 +33,11 @@
     "url": "https://dashboard.mintlify.com"
   },
   "primaryTab": {
-    "name": "Plugin docs"
+    "name": "Documentation"
   },
   "tabs": [
     {
-      "name": "AI by design",
+      "name": "Credo",
       "url": "ai-by-design"
     }
   ],
@@ -75,7 +75,7 @@
     {
       "name": "Support",
       "icon": "life-ring",
-      "url": "https://mintlify.com/blog",
+      "url": "mailto:help@moonshot.app",
       "color": {
         "from": "#6F7FE2",
         "to": "#A3ADEC"
@@ -88,11 +88,11 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "creating an API key"
       ]
     },
     {
-      "group": "Examples",
+      "group": "Basics",
       "pages": [
         "essentials/markdown",
         "essentials/code",
@@ -103,17 +103,10 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Examples",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "essentials/markdown",
+        "essentials/code"
       ]
     },
     {
