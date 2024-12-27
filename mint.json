@@ -30,14 +30,14 @@
   ],
   "topbarCtaButton": {
     "name": "Get plugin",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://www.figma.com/community"
   },
   "primaryTab": {
     "name": "Documentation"
   },
   "tabs": [
     {
-      "name": "Credo",
+      "name": "More",
       "url": "ai-by-design"
     }
   ],
@@ -45,24 +45,6 @@
     "mode": "auto"
   },
   "anchors": [
-    {
-      "name": "Guides",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs",
-      "color": {
-        "from": "#6F7FE2",
-        "to": "#A3ADEC"
-      }
-    },
-    {
-      "name": "Changelog",
-      "icon": "list-timeline",
-      "url": "https://mintlify.com/community",
-      "color": {
-        "from": "#6F7FE2",
-        "to": "#A3ADEC"
-      }
-    },
     {
       "name": "Roadmap",
       "icon": "map",
@@ -87,26 +69,26 @@
       "group": "Getting started",
       "pages": [
         "introduction",
-        "quickstart",
-        "creating an API key"
+        "quickstart"
       ]
     },
     {
       "group": "Basics",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "basics/defining-a-schema",
+        "basics/making-requests",
+        "basics/syncing-with-text-nodes",
+        "basics/sycing-with-variables",
+        "basics/working-with-components",
+        "basics/working-with-auto-layout"
       ]
     },
     {
       "group": "Examples",
       "pages": [
-        "essentials/markdown",
-        "essentials/code"
+        "examples/simple",
+        "examples/user-personas",
+        "examples/AI-chat"
       ]
     },
     {
