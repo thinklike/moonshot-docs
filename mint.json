@@ -75,7 +75,7 @@
     {
       "group": "Basics",
       "pages": [
-        "basics/defining-a-schema",
+        "basics/defining-schemas",
         "basics/making-requests",
         "basics/syncing-with-text-nodes",
         "basics/syncing-with-variables",
