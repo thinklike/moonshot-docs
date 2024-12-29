@@ -38,22 +38,13 @@
   "tabs": [
     {
       "name": "More",
-      "url": "ai-by-design"
+      "url": "more"
     }
   ],
   "codeBlock": {
     "mode": "auto"
   },
   "anchors": [
-    {
-      "name": "Roadmap",
-      "icon": "map",
-      "url": "https://mintlify.com/community",
-      "color": {
-        "from": "#6F7FE2",
-        "to": "#A3ADEC"
-      }
-    },
     {
       "name": "Support",
       "icon": "life-ring",
@@ -87,14 +78,16 @@
       "group": "Examples",
       "pages": [
         "examples/simple",
-        "examples/user-personas",
-        "examples/AI-chat"
+        "examples/personas",
+        "examples/ai-chat"
       ]
     },
     {
-      "group": "Credo",
+      "group": "More",
       "pages": [
-        "ai-by-design/credo"
+        "more/credo",
+        "more/changelog",
+        "more/roadmap"
       ]
     }
   ]
