@@ -89,6 +89,12 @@
         "more/changelog",
         "more/roadmap"
       ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "support/help"
+      ]
     }
   ]
 }
