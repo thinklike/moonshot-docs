@@ -11,8 +11,8 @@
     "light": "#A3ADEC",
     "dark": "#4E60D2",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#6F7FE2",
+      "to": "#A3ADEC"
     },
     "background": {
       "dark": "#050625",
@@ -32,15 +32,6 @@
     "name": "Get plugin",
     "url": "https://www.figma.com/community"
   },
-  "primaryTab": {
-    "name": "Documentation"
-  },
-  "tabs": [
-    {
-      "name": "More",
-      "url": "more"
-    }
-  ],
   "codeBlock": {
     "mode": "auto"
   },
@@ -49,6 +40,15 @@
       "name": "Support",
       "icon": "life-ring",
       "url": "support",
+      "color": {
+        "from": "#6F7FE2",
+        "to": "#A3ADEC"
+      }
+    },
+    {
+      "name": "Product info",
+      "icon": "circle-info",
+      "url": "more",
       "color": {
         "from": "#6F7FE2",
         "to": "#A3ADEC"
