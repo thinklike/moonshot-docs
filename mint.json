@@ -48,7 +48,7 @@
     {
       "name": "Support",
       "icon": "life-ring",
-      "url": "mailto:help@moonshot.app",
+      "url": "support",
       "color": {
         "from": "#6F7FE2",
         "to": "#A3ADEC"
