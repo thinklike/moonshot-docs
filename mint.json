@@ -39,20 +39,12 @@
     {
       "name": "Support",
       "icon": "life-ring",
-      "url": "support",
-      "color": {
-        "from": "#6F7FE2",
-        "to": "#A3ADEC"
-      }
+      "url": "support"
     },
     {
       "name": "Product info",
       "icon": "circle-info",
-      "url": "more",
-      "color": {
-        "from": "#6F7FE2",
-        "to": "#A3ADEC"
-      }
+      "url": "more"
     }
   ],
   "navigation": [
@@ -83,7 +75,7 @@
       ]
     },
     {
-      "group": "More",
+      "group": "Product",
       "pages": [
         "more/credo",
         "more/changelog",
