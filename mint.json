@@ -25,7 +25,7 @@
   "topbarLinks": [
     {
       "name": "Contact us",
-      "url": "help"
+      "url": "mailto:help@moonshot.app"
     }
   ],
   "topbarCtaButton": {
