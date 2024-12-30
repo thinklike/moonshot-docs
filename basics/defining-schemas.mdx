@@ -1,37 +1,46 @@
 ---
 title: 'Defining schemas'
-description: 'Making sure you get the same response structure after each request.'
+description: 'Get a structured JSON response after each request'
 icon: 'code'
 ---
 
-## Basic
+It's important to define a structured data schema so synced text and variables are reliably updated with new data after each successful response. If property names vary between responses then your synced elements wouldn't know what to do with them.
 
-### Inline Code
+### Example schema
 
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
+This schema generates a response of three string values ("question", "answer", and "description"). The "answer" property requires the response to be either "yes" or "no", which we'll use to set a component variant in another example.
 
-```
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
-```
-
-### Code Block
-
-Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
-
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+```JSON
+{
+  "type": "object",
+  "properties": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no"
+      ]
+    },
+    "description": {
+      "type": "string"
     }
+  },
+  "required": [
+    "question",
+    "answer",
+    "description"
+  ],
+  "additionalProperties": false
 }
 ```
 
-````md
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````
+### Generate a schema with a prompt
+
+It is much easier to refine an existing schema than create a new one. If JSON isn't your thing, start by describing the response you want and clicking "Generate schema".
+
+<Frame>
+    <img width="400px" src="/images/schema-generate-prompt.png" />
+</Frame>
