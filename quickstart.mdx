@@ -1,99 +1,98 @@
 ---
 title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+description: 'Make your design respond to AI in a few minutes'
 ---
 
-## Setup your development
+### Prerequisites
 
-Learn how to update your docs locally and deploy them to the public.
+These are required for Moonshot AI Studio.
 
-### Edit and preview
+1. A [Figma account](https://www.figma.com/)
+2. An [OpenAI API key](https://platform.openai.com/api-keys)
+
+### Get setup and sync response data
 
 <Steps>
-  <Step title="First Step">
-    These are instructions or content that only pertain to the first step.
+  <Step title="Open Moonshot AI Studio">
+    This plugin is available via the actions menu bar (pictured below) and the [Figma community](https://www.figma.com/community).
+
+    <Frame>
+      <img width="400px" src="/images/quickstart-run-plugin.png" />
+    </Frame>
+
+    <br />
   </Step>
-  <Step title="Second Step">
-    These are instructions or content that only pertain to the second step.
+  <Step title="Add your OpenAI API key">
+    Navigate to the Settings tab and add the API key you generated in your OpenAI account. Make sure to click "Save changes".
+
+    <Frame>
+      <img width="400px" src="/images/quickstart-api-key.png" />
+    </Frame>
+    <br />
   </Step>
-  <Step title="Third Step">
-    These are instructions or content that only pertain to the third step.
+  <Step title="Make a request">
+    Enter a prompt and click "Make request". You can also use the <b>⌘CMD</b> plus <b>↵Enter</b> key combination to make requests.
+  </Step>
+  <Step title="Sync data to a text node">
+    Click on a text node in your file and select the value you want to sync to it. You can also click on "View response" from the main Reqeusts view and then click on a response value.
+
+    Once synced the text node will update with new data after making additional requests.
+
+    <Frame>
+      <img width="400px" src="/images/quickstart-sync-text.png" />
+    </Frame>
+    <br />
   </Step>
 </Steps>
 
+## Design even richer AI products
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
-
-### Deploy your changes
-
-<AccordionGroup>
-
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
-
-</AccordionGroup>
-
-## Update your docs
-
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+Learn the core concepts behind designing AI products with Moonshot AI Studio.
 
 <CardGroup>
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
+<Card title="Defining schemas" icon="code" href="/basics/defining-schemas">
+  Structure response data to ensure predictable formatting.
 </Card>
 
 <Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
+  title="Making requests"
+  icon="rotate"
+  href="/basics/making-requests"
 >
-  Implement your OpenAPI spec and enable API user interaction.
+  Request an API response from your prompt.
 </Card>
 
 <Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
+  title="Syncing with text nodes"
+  icon="text"
+  href="/basics/syncing-with-text-nodes"
 >
-  Draw insights from user interactions with your documentation.
+  Map response data to text nodes in your design file.
 </Card>
 
 <Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
+  title="Syncing with variables"
+  icon="square-x"
+  href="/basics/syncing-with-variables"
 >
-  Keep your docs on your own website's subdomain.
+  Map response data to variables that can be read by components.
+</Card>
+
+<Card
+  title="Working with components"
+  icon="diamonds-4"
+  href="/basics/working-with-components"
+>
+  Make your components respond to AI.
+</Card>
+
+<Card
+  title="Working with auto layout"
+  icon="objects-column"
+  href="/basics/working-with-auto-layout"
+>
+  Ensure your design handles various amounts of information.
 </Card>
 
 </CardGroup>
