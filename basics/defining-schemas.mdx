@@ -8,6 +8,10 @@ icon: 'code'
 
 It's important to define a structured data schema so synced text and variables are reliably updated with new data after each successful response. If property names vary between responses then your synced elements wouldn't know what to do with them.
 
+<Note>
+    Note that applying arrays (groups of objects) to a design is not yet supported.
+</Note>
+
 ### Example schema
 
 This schema generates a response of three string values ("question", "answer", and "description"). The "answer" property requires the response to be either "yes" or "no", which we'll use to set a component variant in another example.
