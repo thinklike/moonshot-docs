@@ -67,7 +67,7 @@
       ]
     },
     {
-      "group": "Examples",
+      "group": "Guided examples",
       "pages": [
         "examples/simple",
         "examples/personas",
@@ -77,9 +77,9 @@
     {
       "group": "Product",
       "pages": [
-        "more/credo",
         "more/changelog",
-        "more/roadmap"
+        "more/roadmap",
+        "more/credo"
       ]
     },
     {
