@@ -25,7 +25,7 @@
   "topbarLinks": [
     {
       "name": "Contact us",
-      "url": "support"
+      "url": "help"
     }
   ],
   "topbarCtaButton": {
@@ -39,7 +39,7 @@
     {
       "name": "Support",
       "icon": "life-ring",
-      "url": "support"
+      "url": "help"
     },
     {
       "name": "Product info",
@@ -85,7 +85,7 @@
     {
       "group": "Help",
       "pages": [
-        "support/help"
+        "help/contact"
       ]
     }
   ]
