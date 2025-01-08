@@ -20,11 +20,18 @@ After a few builds these steps will become second nature. Once setup, you'll onl
   <Step title="Add text nodes">
     Add text placeholders for the question and reasoning. Make sure to name your text laters appropriately to make syncing data easier later on.
 
+    <Frame caption="Add one text node for the question and one for the description.">
+      <img src="/images/examples/simple-app/add-text-nodes.png" />
+    </Frame>
     <br />
   </Step>
 
   <Step title="Create a multi-variant component">
     Let's create a component with three different variants: `Yes`, `No`, and `Null`. We need a `Null` variant to use before we make our first request or if we decide to reset the variable. These names can be upper or lower case, and you can name the variant property anything you like—for the purpose of this example we'll name it "Response".
+
+    <Frame>
+      <img src="/images/component-variants.png" />
+    </Frame>
 
      <Note>This requires knowing how to work with components and component variants. Read more about [working with components](/basics/working-with-components.mdx).</Note>
     <br />
@@ -33,19 +40,32 @@ After a few builds these steps will become second nature. Once setup, you'll onl
   <Step title="Create a local variable">
     Click on "Local variables" in Figma's right panel (you may need to unselect a frame or node to see it). Create a new text variable called "Yes or No".
 
+    <Frame>
+      <img src="/images/variables.png" />
+    </Frame>
+
     <Tip>Create a local variables collection for AI to stay organized and make data easier to sync.</Tip>
 
     <br />
   </Step>
 
   <Step title="Add an instance of your component to your design">
-    This will allow you to sync data with this instance and not the component itself. Once added **make sure to connect the "Response" field with your local variable**.
+    This will allow you to sync data with this instance and not the component itself.
+
+    <Frame>
+      <img src="/images/examples/simple-app/apply-variable.png" />
+    </Frame>
+
+    <Note>Make sure to apply your local variable to the component property (int this case "Response").</Note>
+
+    <br />
   </Step>
 
   <Step title="Apply auto layout">
-    Select both text nodes and the component, then click to apply auto layout in Figma's right panel. This will ensure your design can adjust to varying levels of content.
+    Select both text nodes and the component, then click to apply auto layout in Figma's right panel. This will ensure your design can adjust to varying levels of content. Learn more about [working with auto layout](/basics/working-with-auto-layout).
 
     Once this step is done the traditional design work for this example will be complete.
+    <br />
   </Step>
 
   <Step title="Create a request">
@@ -54,11 +74,16 @@ After a few builds these steps will become second nature. Once setup, you'll onl
     ```text System prompt
     You are a helpful assistant. Tell a user if something is a good idea or not.
     ```
+
     <br />
   </Step>
 
   <Step title="Define your schema">
     Next we'll define a structured JSON response to ensure data is reliably applied to your design after each request. To do this, click on "Define schema".
+
+    <Frame>
+      <img width="400px" src="/images/schema-variables.png" />
+    </Frame>
 
     You can write your JSON by hand or use the prompt above the code field to generate one for you. For this example, feel free to copy and paste the following:
 
@@ -94,11 +119,24 @@ After a few builds these steps will become second nature. Once setup, you'll onl
   <Step title="Make an initial request">
     This will return your intial set of properties and accompanying data that you can then sync with your design. Ask a question in **Prompt** field and click "Make request".
 
+    <Frame>
+      <img width="400px" src="/images/examples/simple-app/initial-request.png" />
+    </Frame>
+
+    Once you get a request click on "View response" to view the data properties and values that you can apply to your design.
+
+    <Frame>
+      <img width="400px" src="/images/requests-response.png" />
+    </Frame>
     <br />
   </Step>
 
   <Step title="Sync response data with text nodes and variable">
     Click on a text node in your file and select the value you want to sync to it. You can also click on "View response" from the main Reqeusts view and then click on a response value and sync it with a text node or variable.
+
+    <Frame>
+      <img width="400px" src="/images/quickstart-sync-text.png" />
+    </Frame>
 
     Repeat with the other text node in your design and the local variable that is read by your component.
     <br />
