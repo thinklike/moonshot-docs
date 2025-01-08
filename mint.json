@@ -67,11 +67,11 @@
       ]
     },
     {
-      "group": "Examples",
+      "group": "Tutorials",
       "pages": [
-        "examples/simple",
-        "examples/personas",
-        "examples/ai-chat"
+        "tutorials/simple",
+        "tutorials/personas",
+        "tutorials/ai-chat"
       ]
     },
     {
