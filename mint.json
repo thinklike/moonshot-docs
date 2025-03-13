@@ -22,12 +22,6 @@
   "background": {
     "style": "gradient"
   },
-  "topbarLinks": [
-    {
-      "name": "Contact us",
-      "url": "help"
-    }
-  ],
   "topbarCtaButton": {
     "name": "Get plugin",
     "url": "https://www.figma.com/community/plugin/1456738795623637101"
